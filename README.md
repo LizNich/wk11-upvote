@@ -16,4 +16,5 @@ I also looked at how the files were set up in GitHub to understand what the app 
 Stretch:
 Fixed text colour on /add-post page to white so it shows
 
+Thank you
 Liz
