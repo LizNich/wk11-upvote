@@ -9,7 +9,7 @@ export async function Pagination({ currentPage = 1 }) {
   const numOfPages = Math.ceil(count / POSTS_PER_PAGE);
 
   return (
-    <ul className="flex w-1/2 mx-auto space-x-3 text-2xl">
+    <ul className="flex w-1/2 mx-auto space-x-3 text-1xl">
       {currentPage > 1 && (
         <li>
           <a
@@ -28,7 +28,7 @@ export async function Pagination({ currentPage = 1 }) {
               "text-pink-400": currentPage === index + 1,
             })}
           >
-            {index + 1}
+            Page {index + 1}
           </a>
         </li>
       ))}
